@@ -1,0 +1,57 @@
+body {
+    background-image:linear-gradient(to bottom, white, orange);
+    background-repeat: no-repeat
+}
+
+header {
+    background-color: dimgray;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+.goo {
+    width: 80px;
+    padding-top: 5px;
+    float: left;
+    float: right;
+}
+
+.uw {
+    width: 10%;
+    float: left;
+    float: right;
+}
+
+.move1 {
+    background: pink;
+    width: 250px;
+    height: 200px;
+    float: right;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.move2 {
+    width: 250px;
+    height: 200px;
+    float: left;
+    border-width: 20px;
+    border-color: black;
+}
+
+@media (max-width: 40em) {
+    .move1 {
+        float: left;
+        width: 100%;
+    }
+    .move2 {
+        float: left;
+        width: 100%;
+    }
+}
