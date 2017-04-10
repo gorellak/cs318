@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+#container {
+    background-color: deepskyblue;
+    height: 460px;
+    position: relative;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    position:absolute;
+    display: none;
+}
+
+input[type="radio"]:checked + .page {
+    display:block;
+}
+
+#page1 {
+    background-image:url(pics/bird1.jpg);
+    background-repeat: no-repeat;
+}
+#page2 {
+    background-image:url(pics/bird2.jpg);
+    background-repeat: no-repeat;
+}
+#page3 {
+    background-image:url(pics/bird3.jpg);
+    background-repeat: no-repeat;
+}
+
+
+#controls {
+    left: 50%;
+    transform: translate(-50%,0);
+    position:absolute;
+    bottom: 0;
+    user-select: none;
+}
+label {
+    color:white;
+    font-size: 18pt;
+    cursor:pointer;
+}
+input {
+    display:none;
+}
+#show1:checked ~ #controls label:nth-child(1), #show2:checked ~ #controls label:nth-child(2), #show3:checked ~ #controls label:nth-child(3) {
+    color:aqua;
+}

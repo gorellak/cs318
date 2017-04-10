@@ -1,0 +1,24 @@
+* {
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+form {
+        background-color: lightgray;
+        text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+}
+input {
+    margin: 5px;
+}
+#submit {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}
+#addInfo {
+    width: 75%;
+    padding-bottom: 150px;
+}
