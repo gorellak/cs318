@@ -1,0 +1,48 @@
+input {
+    background-color: yellow;
+    float:right;
+    color:red;
+}
+label {
+    background-color: black;
+    color: yellow;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: wingdings;
+}
+body {
+    background-color: purple;
+    color:aquamarine;
+}
+#five {
+    background-color: green;
+}
+#ten {
+    background-color: hotpink;
+}
+#one {
+    background-color: orange;
+}
+#two {
+    background-color: black;
+}
+#three {
+    background-color: white;
+}
+#four {
+    background-color: tan;
+}
+#six {
+    background-color: transparent;
+}
+#seven {
+    background-color: turquoise;
+}
+#eight {
+    background-color: tomato;
+}
+#number {
+    color: lightgoldenrodyellow;
+}
