@@ -3,7 +3,7 @@
     margin-left: 0;
     background-image: url(images/picture.jpg);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 900px;
     height: 100px;
 }
 
@@ -15,8 +15,8 @@ header {
 body {
     margin: 0px;
     background-color: aquamarine;
-    width: 300px;
-   text-align: center;
+    width: 900px;
+    margin: auto;
 }
 
 nav {
