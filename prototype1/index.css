@@ -68,11 +68,11 @@ main {
  
 p {
     width: 68%;
-    padding-left: 30px;
+    padding-left: 45px;
 }
 
 h3 {
-    padding-left: 35px;
+    padding-left: 30px;
 }
 
 footer {
@@ -84,10 +84,9 @@ footer {
 }
 
 
-
 /* History Page */
 .featured {
-    margin-left: 20px;
+    margin-left: 30px;
     background-image: url(images/picture900.jpg);
     background-repeat: no-repeat;
     width: 300px;
