@@ -87,7 +87,7 @@ footer {
 
 
 @media (min-width:40em) {
-    img {display: none}; 
+/*    img {display: none}; */
 }
 
 
@@ -106,7 +106,6 @@ footer {
 
 .pdf {
     width: 200px;
-    position: relative;
     float:right;
     margin-right: 80px;
 }
