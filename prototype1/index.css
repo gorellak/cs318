@@ -59,9 +59,10 @@ main {
     font-size: 10pt;
     background-color: antiquewhite;
     margin: 0px;
-    width: 880px;
+    width: 900px;
     display: block;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
  
 p {
@@ -86,19 +87,13 @@ footer {
 }
 
 
-@media (min-width:40em) {
-/*    img {display: none}; */
-}
-
-
-
 
 /* History Page */
 .featured {
     margin-left: 50px;
     background-image: url(images/featured.jpg);
     background-repeat: no-repeat;
-    width: 300px;
+    width: 900px;
     height: 200px;
 }
 
@@ -115,3 +110,129 @@ footer {
 .right {
    margin-left: 300px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE PHONE CODING */
+
+@media (max-width: 500px) {
+    img {display: none;
+    }
+    main {
+    width: 300px;
+}
+    header {
+    padding: 0;
+    text-align: center;
+    width: 300px;
+    background-color: antiquewhite;
+}
+
+.mainphoto {
+    margin-left: 0;
+    margin-top: 0;
+    background-image: url(images/picture900a.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+}
+
+body {
+    margin: auto;
+    background-color: #669966;
+    width: 300px;
+    margin-top: -20px;
+}
+nav {
+    float: center;
+    width: 300px;
+    margin-top: 0px;
+    color: black;
+    font-family: sans-serif;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: auto;
+    padding-right: auto;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to black on hover */
+li a:hover {
+    background-color: #6B4C20;
+}
+
+
+p {
+    width: 80%;
+    padding-left: 35px;
+    margin-top: 0px;
+}
+
+h3 {
+    width: 300px
+    padding-left: 35px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    clear: both;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    height: auto;
+    padding: 10px 10px 10px 15px;
+    text-align: center;
+}
+    /* History Page */
+.featured {
+    margin-left: 0px;
+    background-image: url(images/featured.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+}
+
+/* Event Page */
+
+.pdf {
+    width: 200px;
+    float:right;
+    margin-right: 80px;
+}
+
+/* Contact Page */
+
+.right {
+   margin-left: 0px;
+}
+}
+
+
+
+
+
+
