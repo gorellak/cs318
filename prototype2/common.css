@@ -152,7 +152,7 @@ table td{
     margin-top: 10px;
     margin-left: 50px;
     margin-bottom: 20px;
-    background-image: url(images/featured.jpg);
+    background-image: url(images/featured2.jpg);
     background-repeat: no-repeat;
     width: 300px;
     height: 200px;
@@ -318,7 +318,7 @@ footer {
 .featured {
     margin-left: 0px;
     margin-bottom: 20px;
-    background-image: url(images/featured.jpg);
+    background-image: url(images/featured2.jpg);
     background-repeat: no-repeat;
     width: 300px;
 
