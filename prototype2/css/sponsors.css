@@ -19,7 +19,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li class="selected"><a href="sponsors.html">Sponsors</a></li>
-                        </ul>
+            </ul>
         </nav>
        
         <main>
@@ -31,15 +31,20 @@
             <img src="images/sponsors.jpg" class="sponsor">
             
             <h4 class="clear">Bronze Sponsorship</h4>
-            <ol><li>$25.00 Advertisement Package</li><br>
-                <li>Name placed on sign board for May tractor pull and at Pioneer Days the second weekend in August</li></ol>
+            <ol>
+				<li>$25.00 Advertisement Package</li><br>
+                <li>Name placed on sign board for May tractor pull and at Pioneer Days the second weekend in August</li>
+			</ol>
             
             <br>
             <h4 class="clear">Silver Sponsorship</h4> 
                     <ol>
-                        <li>$50.00 Advertisement Package</li><br> 
-                        <li>Name placed on sign board</li><br>
-                        <li>Sponsorship announcement made at May tractor pull</li><br>
+                        <li>$50.00 Advertisement Package</li>
+						<br> 
+                        <li>Name placed on sign board</li>
+						<br>
+                        <li>Sponsorship announcement made at May tractor pull</li>
+						<br>
                         <li>Sponsorship announcements made at Pioneer Days the second weekend in August</li>
                     </ol>
                     <br>
