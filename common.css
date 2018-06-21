@@ -35,9 +35,9 @@ nav {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: block;
     margin: 0;
-    padding-left: 150px;
+    /*padding-left: 150px;*/
     overflow: hidden;
 }
 
